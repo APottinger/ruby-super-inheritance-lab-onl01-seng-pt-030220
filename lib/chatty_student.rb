@@ -1,6 +1,9 @@
-require_relative './student.rb'
+require_relative './lib/concerns/memorable'
 
-class ChattyStudent < Student 
+class ChattyStudent 
+  extend Memorable::ClassMethods
+  include Memorable::InstanceMethods
+  
   
   def hello
     super 
