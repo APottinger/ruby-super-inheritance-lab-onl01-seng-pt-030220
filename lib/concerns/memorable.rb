@@ -15,14 +15,7 @@ module Memorable
   
   
   module InstanceMethods
-    
-    def present 
-      case present
-      
-      
-    end 
-      
-    
+   
   end 
   
   
